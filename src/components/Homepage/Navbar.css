@@ -1,0 +1,57 @@
+.container {
+    background-color: white;
+    display: flex;
+    height: 80%;
+    margin: 50px;
+}
+
+.sidebar {
+    width: 20vw;
+    height: 100%;
+    background-image: linear-gradient(45deg, rgba(96, 59, 201), rgb(123, 93, 211));
+    padding-top: 25vh;
+    border-radius: 20px;
+
+}
+
+.link {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 25px;
+    padding: 5% 10%;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid white;
+}
+
+.active {
+    position: relative;
+
+}
+
+.indicator {
+    width: 20%;
+    height: 54%;
+    transform: rotate(-90deg) translate(14px, 35px);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    filter: invert(1);
+}
+
+
+
+.active::after {
+    position: absolute;
+    top: 12px;
+    right: -19px;
+    content: " >";
+    color: lightgray;
+}
+
+.main {
+    width: 100%;
+}

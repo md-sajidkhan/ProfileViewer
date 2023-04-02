@@ -1,0 +1,77 @@
+.background {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.background path {
+    fill: #f3f4f5;
+}
+
+.landing-page {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgba(96, 59, 201), rgb(123, 93, 211));
+}
+
+.landing-page-box {
+    width: 500px;
+    height: 400px;
+    background-color: lightgrey;
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.lp-heading {
+    margin: 40px 0px;
+    text-align: center;
+    flex-shrink: 0;
+    font-size: 20px;
+}
+
+.profile-list {
+    /* width: 100%; */
+    background-color: white;
+    flex-grow: 1;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    z-index: 999;
+    overflow: auto;
+}
+
+
+
+.lp-image-name {
+    display: flex;
+    border-bottom: 2px solid lightgray;
+    align-items: center;
+    margin: 0px 40px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 10px 0px;
+}
+
+.lp-image-name:last-child {
+    border: none;
+}
+
+.lp-image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.lp-name {
+    margin-left: 10px;
+    font-weight: 700;
+}
