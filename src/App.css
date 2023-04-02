@@ -12,11 +12,6 @@
   height: 100vh;
 }
 
-
-
-
-
-
 .user-personaldetails{
   /* background-color: red; */
   display: flex;
@@ -43,7 +38,32 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   height: 120px;
+}
+
+.user-companydetails h3{
+  color: rgb(148, 142, 142);
+}
+
+.user-companydetails h3 span{
+  color: rgb(48, 44, 44);
+}
+
+.user-personaldetails h3{
+  color: rgb(148, 142, 142);
+}
+
+.user-personaldetails h3 span{
+  color: rgb(48, 44, 44);
+}
+
+.user-location h3{
+  color: rgb(148, 142, 142);
+}
+
+.user-location h3 span{
+  color: rgb(48, 44, 44);
 }
 
 .user-location{
@@ -140,7 +160,7 @@
 
 .chat-box{
   height: 400px;
-  width: 250px;
+  width: 300px;
   position: fixed;
   right: 40px;
   bottom: 0px;

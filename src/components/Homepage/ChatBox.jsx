@@ -70,7 +70,7 @@ function ChatBox({ otherProfiles, filteredProfiles }) {
                     <div
                         key={user.id}
                         onClick={() => handleUserClick(user)}
-                        className={`chat-list ${selectedUser && selectedUser.id === user.id ? "active" : ""}`}
+                        className={`chat-list ${selectedUser && selectedUser.id === user.id ? "active1" : ""}`}
                     >
                         <img src={user.profilepicture} alt="pic" className='chat-image' />
                         <p className='chat-name'>{user.name}</p>
